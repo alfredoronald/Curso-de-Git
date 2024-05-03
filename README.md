@@ -21,4 +21,13 @@ git add nombre-archivo
 ### Ramas y Merge ###
 > Las ramas son una coleccion de directorios y archivos de repositorios. Cada vez que sea una rama, tambien se crea una copia de coleccion  de archivos.
 
+Git ofrece la posibilidad de crear una ramas.Estas se crean a partir de repositorios, las ramas nos permiten un trabajo en paralelo sobre un mismo codigo.
+
+### COMANDOS ###
+
+El comando git branch nos permite crear, listar, renombrar y eliminar ramas .
+```python
+git branch nombre-rama
+```
+
 
