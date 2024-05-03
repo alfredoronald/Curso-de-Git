@@ -39,4 +39,8 @@ Empleamos el comando git merge para incorporar los cambios de una rama a la rama
 git merge my-branch
 ```
 
-
+Para poder eliminar una rama y asi tener un mejor manejo de las ramas. Se puede utilizar el el comando git branch con el parametro --delete o -d y en caso que quieras eliminar la rama que no ha sido fusionada previamente se debe utilizar el parametro -D.
+```python
+git branch -d nombre-rama
+git branch -D nombre-rama
+```
