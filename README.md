@@ -17,3 +17,8 @@ El git add es posible añadir algun archivo al area de staging pero no quieres g
 ```pythom
 git add nombre-archivo
 ```
+##  Clase II ##
+### Ramas y Merge ###
+> Las ramas son una coleccion de directorios y archivos de repositorios. Cada vez que sea una rama, tambien se crea una copia de coleccion  de archivos.
+
+
