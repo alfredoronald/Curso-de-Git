@@ -29,5 +29,8 @@ El comando git branch nos permite crear, listar, renombrar y eliminar ramas .
 ```python
 git branch nombre-rama
 ```
-
+Para poder movernos por las ramas se puede utilizar el git switch.
+```python
+git switch nombre-rama
+```
 
