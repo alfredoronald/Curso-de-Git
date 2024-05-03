@@ -32,5 +32,11 @@ git branch nombre-rama
 Para poder movernos por las ramas se puede utilizar el git switch.
 ```python
 git switch nombre-rama
+git checkout nombre-rama
 ```
+Empleamos el comando git merge para incorporar los cambios de una rama a la rama en la que nos encontramos en ese momento.
+```python
+git merge my-branch
+```
+
 
