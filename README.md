@@ -23,6 +23,8 @@ git add nombre-archivo
 
 Git ofrece la posibilidad de crear una ramas.Estas se crean a partir de repositorios, las ramas nos permiten un trabajo en paralelo sobre un mismo codigo.
 
+![alt](https://https://miro.medium.com/v2/resize:fit:801/1*DhagidpZutkaCmAZobmzDQ.png)
+
 ### COMANDOS ###
 
 El comando git branch nos permite crear, listar, renombrar y eliminar ramas .
@@ -44,3 +46,6 @@ Para poder eliminar una rama y asi tener un mejor manejo de las ramas. Se puede 
 git branch -d nombre-rama
 git branch -D nombre-rama
 ```
+#### CONFLICTOS ####
+Un conflicto es una situaciom en la que Git no es capaz de determinar que cambio es el que tiene que prevalecer una vez ocurra una fusion.
+Para solucionar el conflicto nos saldra un archivo de los que estaban en la rama principal y la entrante.
