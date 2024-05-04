@@ -48,4 +48,14 @@ git branch -D nombre-rama
 ```
 #### CONFLICTOS ####
 Un conflicto es una situaciom en la que Git no es capaz de determinar que cambio es el que tiene que prevalecer una vez ocurra una fusion.
-Para solucionar el conflicto nos saldra un archivo de los que estaban en la rama principal y la entrante.
+Para solucionar el conflicto nos saldra tal como se ve en la figura.
+
+<img src="https://www.netmentor.es/Imagen/f084cf7e-9650-4cf5-a893-7d993bffea6b.jpg"/>
+
+En la parte superior se tiene el contenido que ya existia en la rama del destino. De la rama fusion(la rama main) y de la linea divisoria ======= tenemos el contenido de la rama origen (la rama changes) que queremos incorporar a la rama main. Para resolver el conflicto tenemos que decidir entre:
+
+- Nos quedamos con los cambios de la rama **main**.
+- Nos quedamos con los cambios de la rama **changes**.
+- Modificamos cambios para hacer una fusion personalizada.
+
+Ahora se puede fusionar los cambios de la rama **changes** a la rama **main** luego agregan los cambios y se hace un commit.
