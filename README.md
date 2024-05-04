@@ -23,7 +23,7 @@ git add nombre-archivo
 
 Git ofrece la posibilidad de crear una ramas.Estas se crean a partir de repositorios, las ramas nos permiten un trabajo en paralelo sobre un mismo codigo.
 
-![alt](https://https://miro.medium.com/v2/resize:fit:801/1*DhagidpZutkaCmAZobmzDQ.png)
+![alt](C:\Users\Ronald\Downloads)
 
 ### COMANDOS ###
 
