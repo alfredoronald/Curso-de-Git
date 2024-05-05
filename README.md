@@ -78,6 +78,12 @@ Para enviar los cambios del repositorio local al repositorio remoto. Para ello e
 ```python
 git push alias main
 ```
+**Clonar un repositorio remoto :**
+Para clonar un repositorio remoto necesitamos saber su direccion. La direccion normalmente se encuentra en HTTPS o SSH.
+Una vez obtenido la direccion es momento de utilizar el comando.
+```python
+git clone <direccion>
+```
 **Crer una rama remota :**
 Si queremos crear una rama remota y cambiar al mismo instante a la rama creada utilizamos el siguiente comando.
 ```python
