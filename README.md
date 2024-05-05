@@ -78,4 +78,12 @@ Para enviar los cambios del repositorio local al repositorio remoto. Para ello e
 ```python
 git push alias main
 ```
-
+**Crer una rama remota :**
+Si queremos crear una rama remota y cambiar al mismo instante a la rama creada utilizamos el siguiente comando.
+```python
+git switch -c nombre-rama
+``` 
+Para mandar o enviar la rama creada a nuestro repositorio remoto ejecutamos :
+```python
+git push alias-repositorio nombre-rama
+```
