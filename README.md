@@ -33,7 +33,10 @@ git branch nombre-rama
 ```
 Para poder movernos por las ramas se puede utilizar el git switch.
 ```python
-git switch nombre-rama
+git switch nombre-rama 
+git checkout nombre-rama
+```
+```python
 git checkout nombre-rama
 ```
 Empleamos el comando git merge para incorporar los cambios de una rama a la rama en la que nos encontramos en ese momento.
@@ -64,3 +67,12 @@ Ahora se puede fusionar los cambios de la rama **changes** a la rama **main** lu
 GitHub es un servicio de alojamiento en la nube de codigo fuente basado en el control de versiones que ofrece Git para manejar repositorios.
 
 #### Repositorios Remotos ##
+Son repositorios que estan hospedados en un servidor y que servira de punto de sincronizacion entre diferentes repositorios locales.
+
+#### Enlazar un repositorio local con un repositorio remoto ####
+
+Paea conectar nuestro repositorio local con el repositorio remoto debemos usar el comando git remote add y le pasamos dos parametros. primero pasamos en alias que le pondremos al repositorio remoto y el segundo seria la direccion del mismo repositorio.
+```python
+git remote add alias <direccion>
+```
+
