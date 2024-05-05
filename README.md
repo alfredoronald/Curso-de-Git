@@ -59,3 +59,8 @@ En la parte superior se tiene el contenido que ya existia en la rama del destino
 - Modificamos cambios para hacer una fusion personalizada.
 
 Ahora se puede fusionar los cambios de la rama **changes** a la rama **main** luego agregan los cambios y se hace un commit.
+## Clase III ##
+### GitHub ###
+GitHub es un servicio de alojamiento en la nube de codigo fuente basado en el control de versiones que ofrece Git para manejar repositorios.
+
+#### Repositorios Remotos ##
