@@ -97,3 +97,8 @@ git push alias-repositorio nombre-rama
 ```python
 git fetch
 ```
+El comando git remote prune rama elimina las referencias locales que corresponden a ramas remotas que ya no existen en el repositorio remoto "origin". Esto asegura que tu copia local esté actualizada y no contenga referencias obsoletas que puedan causar confusión o problemas en el futuro. 
+
+```python
+git remote prune origin
+```
