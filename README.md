@@ -76,7 +76,7 @@ git remote add alias <direccion>
 ```
 Para enviar los cambios del repositorio local al repositorio remoto. Para ello ejecutamos el siguiente comando.
 ```python
-git push alias main
+git push alias <rama>
 ```
 **Clonar un repositorio remoto :**
 Para clonar un repositorio remoto necesitamos saber su direccion. La direccion normalmente se encuentra en HTTPS o SSH.
@@ -92,4 +92,8 @@ git switch -c nombre-rama
 Para mandar o enviar la rama creada a nuestro repositorio remoto ejecutamos :
 ```python
 git push alias-repositorio nombre-rama
+```
+**Actulizar nuevas ramas del GitHub:** Con el comando git fetch podemos actualizar la nuevas ramas que otro usuario envio al repositorio remoto y esa rama no aparece en tu repositorio se ejecuta el comando:
+```python
+git fetch
 ```
