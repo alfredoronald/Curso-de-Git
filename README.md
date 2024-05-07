@@ -117,6 +117,19 @@ Cuando quieres ignorar o forzar los cambios locales hechos al repositorio Git en
 ```python
 git push --force origin nombre-rama
 ```
+### Git pull ##
+Es un comando para actualizar tu repositorio local con los cambios mas recientes del repositorio remoto.Lo que basicamente hace es descargar los cambios del repositorio remoto y los fusiona con tu rama local.
+
+```python
+git pull origin
+```
+Si quieres traer los cambios de una rama especifica se puede utilizar el siguiente comando:
+
+```python
+git pull origin nombre-rama
+```
+### Pull request ##
+
 
 
 
