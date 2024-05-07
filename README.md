@@ -129,6 +129,9 @@ Si quieres traer los cambios de una rama especifica se puede utilizar el siguien
 git pull origin nombre-rama
 ```
 ### Pull request ##
+Una pull request es una solicitud de los cambios que ha realizado en su propia copia del repositorio se incorporen al repositorio principal. Esto permite a otros revisar los cambios, realizar comentarios y sugerir modificaciones antes de que se fusionen  con el repositorio principal.
+
+Las pull request son muy importantes en el flujo de trabajo colaborativo en el desarrollo de software y son especialmente utiles en proyectos de codigo abierto.
 
 
 
