@@ -112,5 +112,13 @@ Si quieres subir todo los cambios al repositorio remoto con todo y sus ramas, pu
 ```python
 git push --all origin
 ```
+Cuando quieres ignorar o forzar los cambios locales hechos al repositorio Git en GitHub puedes usar el comando.
+(Es una mala practica).
+```python
+git push --force origin nombre-rama
+```
+
+
+
 
 
