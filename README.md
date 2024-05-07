@@ -97,8 +97,20 @@ git push alias-repositorio nombre-rama
 ```python
 git fetch
 ```
-El comando git remote prune rama elimina las referencias locales que corresponden a ramas remotas que ya no existen en el repositorio remoto "origin". Esto asegura que tu copia local esté actualizada y no contenga referencias obsoletas que puedan causar confusión o problemas en el futuro. 
+El comando git remote prune origin elimina las referencias locales que corresponden a ramas remotas que ya no existen en el repositorio remoto "origin". Esto asegura que tu copia local esté actualizada y no contenga referencias obsoletas que puedan causar confusión o problemas en el futuro. 
 
 ```python
 git remote prune origin
 ```
+## Clase IV ##
+### Git Push  ##
+Es un comando utilizado en git para enviar tus cambios locales a un repositorio remoto. Esto actuliaza el repositorio remoto con tus ultimos commits.
+```python
+git push alias nombre-rama
+```
+Si quieres subir todo los cambios al repositorio remoto con todo y sus ramas, puedes utilizar:
+```python
+git push --all origin
+```
+
+
