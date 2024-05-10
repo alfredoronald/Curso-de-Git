@@ -156,6 +156,14 @@ Se utiliza para cuando se trabaja en una nueva caracteristica para el proyecto.
 
 - **Hotfix :** Esta rama se crea desde la rama main para solucionar problemas o cambios imprevistos.
 
+### Ship / Show / Ask ###
+Es una estrategia de ramas que combina la idea de crear pull request con la habilidad de seguir actulizando los cambios rapidamente.
+
+**Ship :** Esta rama se fusiona a la rama principal (main) sin previa revision.
+
+**Show :** Esta abre una solicitud de cambios que seran revisados por CI pero se fusiona inmediatamente despues de la revision.
+
+**Ask :** Esta abre un pull request para discutir los cambios antes de fusionarlo con la rama principal (main).
 
 
 
