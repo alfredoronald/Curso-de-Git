@@ -133,6 +133,28 @@ Una pull request es una solicitud de los cambios que ha realizado en su propia c
 
 Las pull request son muy importantes en el flujo de trabajo colaborativo en el desarrollo de software y son especialmente utiles en proyectos de codigo abierto.
 
+## Clase V ##
+
+### Git Flow
+
+El git flow se basa en la creacion de ramas las cuales son: las ramas principales y ramas de apoyo.
+
+**Ramas Principales**
+Es las ramas principales estan la rama main o master y la rama develop.
+
+- **Main o Master :** Su proposito es almacenar el codigo que se encuentra en produccion.
+
+- **Develop :** Es donde se almacena el codigo de pre-produccion con caracteristicas que todavia tienen que ser probadas y aprobadas para que se actualizen a la rama main.
+
+**Ramas de Apoyo**
+Es las ramas de apoyo estan la rama feature , release y hotfix.
+
+- **Feature :** Esta se crea a partir de la rama develop y una vez finalizan son fusionadas de nuevo en **develop** y eliminidas.<br>
+Se utiliza para cuando se trabaja en una nueva caracteristica para el proyecto.
+
+- **Release :** En estas ramas se puede seguir trabajando para añadir algun pequeño cambio de ultima hora o algun parche a un error que se haya detectado justo antes del lanzamiento.
+
+- **Hotfix :** Esta rama se crea desde la rama main para solucionar problemas o cambios imprevistos.
 
 
 
