@@ -141,6 +141,10 @@ El git flow se basa en la creacion de ramas las cuales son: las ramas principale
 
 **Ramas Principales**
 Es las ramas principales estan la rama main o master y la rama develop.
+<br>
+
+<img src="https://wac-cdn.atlassian.com/dam/jcr:a13c18d6-94f3-4fc4-84fb-2b8f1b2fd339/01%20How%20it%20works.svg?cdnVersion=1719"/><br>
+<br>
 
 - **Main o Master :** Su proposito es almacenar el codigo que se encuentra en produccion.
 
@@ -148,8 +152,12 @@ Es las ramas principales estan la rama main o master y la rama develop.
 
 **Ramas de Apoyo**
 Es las ramas de apoyo estan la rama feature , release y hotfix.
+<br>
 
-- **Feature :** Esta se crea a partir de la rama develop y una vez finalizan son fusionadas de nuevo en **develop** y eliminidas.<br>
+<img src="https://wac-cdn.atlassian.com/dam/jcr:cc0b526e-adb7-4d45-874e-9bcea9898b4a/04%20Hotfix%20branches.svg?cdnVersion=1719" />
+<br>
+
+- **Feature :** Esta se crea a partir de la rama develop y una vez finalizan son fusionadas de nuevo en develop y eliminidas.<br>
 Se utiliza para cuando se trabaja en una nueva caracteristica para el proyecto.
 
 - **Release :** En estas ramas se puede seguir trabajando para añadir algun pequeño cambio de ultima hora o algun parche a un error que se haya detectado justo antes del lanzamiento.
@@ -159,11 +167,40 @@ Se utiliza para cuando se trabaja en una nueva caracteristica para el proyecto.
 ### Ship / Show / Ask ###
 Es una estrategia de ramas que combina la idea de crear pull request con la habilidad de seguir actulizando los cambios rapidamente.
 
-**Ship :** Esta rama se fusiona a la rama principal (main) sin previa revision.
+- **Ship :** Esta rama se fusiona a la rama principal (main) sin previa revision.
 
-**Show :** Esta abre una solicitud de cambios que seran revisados por CI pero se fusiona inmediatamente despues de la revision.
+- **Show :** Esta abre una solicitud de cambios que seran revisados por CI pero se fusiona inmediatamente despues de la revision.
 
-**Ask :** Esta abre un pull request para discutir los cambios antes de fusionarlo con la rama principal (main).
+- **Ask :** Esta abre un pull request para discutir los cambios antes de fusionarlo con la rama principal (main).
+
+## Clase VI ##
+### Buenas Practicas en Git ###
+Hacer commits a menudo no significa que debas hacer commits sin sentido, guarda tus progresos pequeñas pero que tengan un significado y que no deje tu proyecto sin funcionar.
+
+**Escrbir un buen commit**
+Algunas palabras pueden ayudar a entender mejor el commit que deseas guardar y estos son los siguientes:
+- **Add :** Significa que se añadira un nuevo archivo.
+- **Change :** Significa que modificara un archivo existente.
+- **Fix :** Significa que arreglo algun bug o error.
+- **Remove :** Significa que se elimina un archivo.
+
+En los commits tambien existen normas que no se deben hacer y veremos algunas:
+- No usar punto final ni puntos suspensivos en tus mensajes.
+- Usar como maximo 50 caracteres para tu mensaje en el commit.
+- Añadir el contexto que sea necesario en el cuerpo del commit.
+
+#### Usar prefijos para los commits 
+Es necesario que existan ciertas reglas para que el historial sea legible.
+
+**Prefijos**
+- **feat** Para una nueva caracteristica del usuario.
+- **fix** Para un bug que afecta al usuario.
+- **perf** Para cambios que mejoran el rendimiento del sitio.
+- **build** Para cambios en el sistema de build, tareas de despliegue o instalacion.
+- **docs** Para cambios en la documentacion.
+- **refactor** Para refactorizacion del codigo como cambios de nombre variables o funciones.
+- **style** Para cambios de formato, tabulaciones, espacios o puntos y coma,etc.
+- **test** Para test o refactorizacion de uno ya existente.
 
 
 
