@@ -34,7 +34,6 @@ git branch nombre-rama
 Para poder movernos por las ramas se puede utilizar el git switch.
 ```python
 git switch nombre-rama 
-git checkout nombre-rama
 ```
 ```python
 git checkout nombre-rama
@@ -222,4 +221,46 @@ git reset hard HEAD~1
 git commit --amend -m "Este es el mensaje correcto"
 ``` 
 
+## Clase VIII ##
+### Hooks ###
+Un hook es un punto de enganche, es una posibilidad de ejecutar una accion.
+Estos son parte del repositorio que los contiene y no se guardan ni se sincronizan con otras replicas del repositorio automaticamente.
+
+**Crear un hook :** Para crear un hook tienes que crearun archivo nombre-hook en la carpeta .git/hooks y en el poner el codigo que  quieras que se ejecute.
+
+### Alias ###
+Los alias son mas para recordar o recortar un comando muy largo y poner algo mas simple y para eso se ejecuta el siguiente comando:
+```python
+git config --global alias.co "checkout"
+```
+### Trucos en Git ###
+**Comandos**
+- **Git stash :**  Nos sirve para movernos por las ramas cuando nos estanquemos en una parte del codigo.
+```python
+git stash
+```
+```python
+git stash pop
+```
+**Git Cherry-pick :** El cherry-pick trae especificamente al commit que tu escojas mediante el id del commit.
+```python
+git cherry-pick id
+```
+**Git bisect:** Nos permite encontrar que commit a introducido algun error por que nosotros colocamos los diferentes bisect dependiendo lo que hace el commit en su monento.
+```python
+git bisect
+```
+```python
+git bisect start
+```
+```python
+git bisect bad
+```
+```python
+git bisect good
+```
+```python
+git bisect reset
+```
+Cada uno se coloca en el commit necesario por ejemplo si el commit genera algun error colocamos el **git bisect bad** y asi tambien con los otros git bisect.
 
