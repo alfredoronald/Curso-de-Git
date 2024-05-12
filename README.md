@@ -202,6 +202,24 @@ Es necesario que existan ciertas reglas para que el historial sea legible.
 - **style** Para cambios de formato, tabulaciones, espacios o puntos y coma,etc.
 - **test** Para test o refactorizacion de uno ya existente.
 
+## Clase VII ##
 
+### Deshacer Cambios ###
+
+A veces queremos retirar el ultimo commit que hicimos por algun motivo como no era el momento hacer un commit o por que simplemente no era necesario hacer un commit.
+Si aun no actulizaste los cambios al repositorio remoto tienes dos formas de hacer esto:
+
+- Si quieres mantener los cambios
+```python
+git reset --soft HEAD~1
+```
+- Si No quieres mantener los cambios
+```python
+git reset hard HEAD~1
+```
+**Arreglar un commit :** se usa el siguiente comando para arreglar un commit, como cambiar el mensaje del commit.
+```python
+git commit --amend -m "Este es el mensaje correcto"
+``` 
 
 
